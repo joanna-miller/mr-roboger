@@ -28,8 +28,8 @@ _Input any number into the form and submit, and you will be returned with an ran
 ## Specifications
 
 Describe: mrRobogers
-Test: 
-Expect:
+Test: It should return an array with the 0 if the number 0 is inputted.
+Expect: (mrRobogers(0).toEqual([0]));
 
 ## License
 
