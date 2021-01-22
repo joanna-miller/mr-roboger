@@ -38,10 +38,12 @@ Test: It should return an array of values from user input.
 Expect: (mrRobogers(1).toEqual([0,1]));
 
 Test: It should return an array of values from user input, with 3 to be replaced with "Won't you be my neighbor?".
-Expect: (mrRobogers(3).toEqual([0, 1, 2, Won't you be my neighbor?]) 
+Expect: (mrRobogers(3).toEqual([0, 1, 2, "Won't you be my neighbor?"]) 
 
-Test: It should return an array of values from user input, with 2 to be replaced with "Boop!".
-Expect (mrRobogers(3).toEqual([0, 1, Boop!, Won't you be my neighbor?]))
+Test: It should return an array of values from user input, with any number including 3 to be replaced with "Won't you be my neighbor?".
+Expect (mrRobogers(13).toEqual([0, 1, 2, "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 10, 11, 12, "Won't you be my neighbor?"]))
+
+
 
 ## License
 
