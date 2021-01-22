@@ -1,8 +1,9 @@
 let userInput = 1;
-
+const returnArray = [];
 
 function mrRobogers(userInput) {
   for (let index = 0; index <= userInput; index ++) {
-    console.log(index);
+    returnArray.push(index);
+    console.log(returnArray);
   }
 }

@@ -28,11 +28,14 @@ _Input any number into the form and submit, and you will be returned with an ran
 ## Specifications
 
 Describe: mrRobogers
-Test: It should return an array with the 0 if the number 0 is inputted.
+Test: It should return an 0 if the number 0 is inputted.
 Expect: (mrRobogers(0).toEqual([0]));
 
 Test: It should return a range of values from user input.
 Expect: (mrRobogers(1).toEqual(0,1));
+
+Test: It should return an array of values from user input.
+Expect (mrRobogers(1).toEqual([0,1]));
 
 ## License
 
