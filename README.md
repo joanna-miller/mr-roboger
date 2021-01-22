@@ -31,6 +31,9 @@ Describe: mrRobogers
 Test: It should return an array with the 0 if the number 0 is inputted.
 Expect: (mrRobogers(0).toEqual([0]));
 
+Test: It should return array of values from user input.
+Expect: (mrRobogers(1).toEqual([0,1]));
+
 ## License
 
 [MIT](LICENSE.txt)
