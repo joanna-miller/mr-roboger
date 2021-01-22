@@ -1,5 +1,8 @@
-let userInput = 0;
+let userInput = 1;
+
 
 function mrRobogers(userInput) {
-  return [0];
+  for (let index = 0; index <= userInput; index ++) {
+    console.log(index);
+  }
 }
