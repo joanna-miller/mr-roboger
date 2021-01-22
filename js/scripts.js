@@ -1,12 +1,9 @@
-let userInput = 4;
+let userInput = 13;
 const userInputArray = [];
-
 
 function mrRobogers(userInput) {
   for (let index = 0; index <= userInput; index ++) {
     userInputArray.push(index);  
   }
-  let returnString = userInputArray.join(" ");
-  console.log(returnString.replace(/3/g, "Won't you be my neighbor?"));
 };
 
