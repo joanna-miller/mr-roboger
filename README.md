@@ -21,8 +21,7 @@
 
 ## Known Bugs
 
-* _Only converts 1, 2, & 3_
-* _Value does not return to page_
+* _Value does not return to user_
 
 ## Specifications
 ```
