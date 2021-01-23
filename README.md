@@ -12,16 +12,13 @@
 
 ## Description
 
+_Enter any number in the form to see Mr. Robogers count to that number!_
 
 ## Setup/Installation Requirements
 
 * _Clone this repository to your desktop_
 * _Navigate to top level of the directory_
 * _Open index.html in your browser_
-
-## Known Bugs
-
-* _Form submits without any input_
 
 ## Specifications
 ```
@@ -43,7 +40,6 @@ Expect: (robogersInput(12).toEqual("0 1 Boop! Won't you be my neighbor? 4 5 6 7 
 
 Test: Convert any number containing the number 1 in a string to "Beep!".
 Expect: (robogersInput(5).toEqual("0 Beep! Boop! Won't you be my neighbor? 4 5 6 7 8 9 Boop! Boop! Boop!"));
-
 
 ```
 

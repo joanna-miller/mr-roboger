@@ -18,7 +18,6 @@ $(document).ready(function() {
     const userInput = parseInt($("#number").val());
    
     const result = robogersInput(userInput);
-
     $("#results-string").text(result);
     $("#results").show();
   });
