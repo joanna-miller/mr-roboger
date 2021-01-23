@@ -1,9 +1,7 @@
-let userInput = 5;
 let userInputArray = [];
 
-function mrRobogers(userInput) {
- 
-  for (let index = 0; index <= userInput; index ++) {
+function mrRobogers(number) {
+  for (let index = 0; index <= number; index ++) {
     userInputArray.push(index);  
     if (userInputArray.includes(3)) {
       userInputArray.pop();
@@ -16,6 +14,20 @@ function mrRobogers(userInput) {
       (userInputArray.includes(1)) {
         userInputArray.pop();
         userInputArray.push("Beep!"); 
-    }
-  } 
+    }  
+  }
 };
+
+$(document).ready(function() {
+  $("#number-form").submit(function(event) {
+    event.preventDefault();
+
+    let userInput = parseInt($("#number").val());
+   
+    let result = mrRobogers(userInput);
+
+    $("#results-array").text("result");
+    $("#results").show();
+  });
+});    
+
