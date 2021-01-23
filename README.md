@@ -31,6 +31,9 @@ Describe: robogersInput
 Test: It should return an array of values of the number that is inputted.
 Expect: (robogersInput(5).toEqual([0, 1, 2, 3, 4, 5]));
 
+Test: It should return a string of values of the number that is inputted.
+Expect: (robogersInput(5).toEqual("0,1,2,3,4,5"));
+
 ```
 
 ## License

@@ -4,7 +4,8 @@ function robogersInput(number) {
   for (let index = 0; index <= number; index ++) {
     userInputArray.push(index);   
   }
-  return userInputArray;
+  let userInputString = userInputArray.toString();
+  return userInputString;
 };
 
 
@@ -29,7 +30,7 @@ $(document).ready(function() {
 
     const userInput = parseInt($("#number").val());
    
-    const result = mrRobogers(userInput);
+    const result = robogersInput(userInput);
 
     $("#results-array").text(result);
     $("#results").show();
