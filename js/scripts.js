@@ -1,12 +1,19 @@
-let userInputArray = [];
-
 function robogersInput(number) {
+  const userInputArray = [];
   for (let index = 0; index <= number; index ++) {
     userInputArray.push(index);   
   }
-  let userInputString = userInputArray.toString();
-  return userInputString;
+  const userInputString = userInputArray.toString();
+  return userInputString.replace(/1/g, "beep!")
+  
 };
+
+function convertToRobot(string) {
+  string.replace(/1/g, "beep!"); 
+  console.log(string);
+}  
+
+
 
 
 if (userInputArray.includes(3)) {
