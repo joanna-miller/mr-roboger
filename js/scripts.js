@@ -3,16 +3,17 @@ function robogersInput(number) {
   for (let index = 0; index <= number; index ++) {
     userInputArray.push(index); 
   }
-  const userInputString = userInputArray.toString();
-    let secondString = userInputString.replace(/1/g, "beep!");
-    let thirdString = secondString.replace(/2/g, "boop!");
+  const userInputString = userInputArray.join(" ");
+    let secondString = userInputString.replace(/\S*3\S*/g, "Won't you be my neighbor?");
+    let thirdString = secondString.replace(/\S*2\S*/g, "Boop!");
+    
     return thirdString;
     
 };
 
 function convertToRobot(string) {
-  string.replace(/1/g, "beep!"); 
-  string.replace(/2/g, "boop!");
+  string.replace(/1/g, "Beep!"); 
+  string.replace(/2/g, "Boop!");
   console.log(string);
 }  
 
