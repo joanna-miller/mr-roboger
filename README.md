@@ -27,24 +27,10 @@ _Input any number into the form and submit, and you will be returned with an ran
 
 ## Specifications
 ```
-Describe: mrRobogers
-Test: It should return an 0 if the number 0 is inputted.
-Expect: (mrRobogers(0).toEqual([0]));
+Describe: robogersInput
+Test: It should return an array of values of the number that is inputted.
+Expect: (robogersInput(5).toEqual([0, 1, 2, 3, 4, 5]));
 
-Test: It should return a range of values from user input.
-Expect: (mrRobogers(1).toEqual(0,1));
-
-Test: It should return an array of values from user input.
-Expect: (mrRobogers(1).toEqual([0,1]));
-
-Test: It should return an array of values from user input, with 3 to be replaced with "Won't you be my neighbor?".
-Expect: (mrRobogers(3).toEqual([0, 1, 2, "Won't you be my neighbor?"]) 
-
-Test: It should return an array of values from user input, with any number including 2 to be replaced with "Boop!".
-Expect (mrRobogers(5).toEqual([0, 1, "Boop!", "Won't you be my neighbor?", 4, 5]))
-
-Test: It should return an array of values from user input, with any number including 1 to be replaced with "Boop!".
-Expect (mrRobogers(5).toEqual([0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5]))
 ```
 
 ## License

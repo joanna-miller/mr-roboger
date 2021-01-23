@@ -1,9 +1,14 @@
 let userInputArray = [];
 
-function mrRobogers(number) {
+function robogersInput(number) {
   for (let index = 0; index <= number; index ++) {
-    userInputArray.push(index);  
-    if (userInputArray.includes(3)) {
+    userInputArray.push(index);   
+  }
+  return userInputArray;
+};
+
+
+if (userInputArray.includes(3)) {
       userInputArray.pop();
       userInputArray.push("Won't you be my neighbor?");  
     } else if 
@@ -15,8 +20,8 @@ function mrRobogers(number) {
         userInputArray.pop();
         userInputArray.push("Beep!"); 
     }  
-  }
-};
+
+
 
 $(document).ready(function() {
   $("#number-form").submit(function(event) {
