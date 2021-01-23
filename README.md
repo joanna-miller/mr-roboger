@@ -40,10 +40,10 @@ Test: Convert any number containing the number 3 in a string to "Won't you be my
 Expect: (robogersInput(13).toEqual("0 1 2 Won't you be my neighbor? 4 5 6 7 8 9 10 11 12 Won't you be my neighbor?"));
 
 Test: Convert any number containing the number 2 in a string to "Boop!".
-Expect: (robogersInput(5).toEqual("0 1 Boop! Won't you be my neighbor? 4 5"));
+Expect: (robogersInput(12).toEqual("0 1 Boop! Won't you be my neighbor? 4 5 6 7 8 9 10 11 Boop!"));
 
-Test: Convert the number 1 in a string to "Beep!".
-Expect: (robogersInput(5).toEqual("0 beep! 2 3 4 5"));
+Test: Convert any number containing the number 1 in a string to "Beep!".
+Expect: (robogersInput(5).toEqual("0 Beep! Boop! Won't you be my neighbor? 4 5 6 7 8 9 Boop! Boop! Boop!"));
 
 
 ```

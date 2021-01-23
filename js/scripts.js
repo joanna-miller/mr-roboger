@@ -6,34 +6,10 @@ function robogersInput(number) {
   const userInputString = userInputArray.join(" ");
     let secondString = userInputString.replace(/\S*3\S*/g, "Won't you be my neighbor?");
     let thirdString = secondString.replace(/\S*2\S*/g, "Boop!");
-    
-    return thirdString;
-    
+    let fourthString = thirdString.replace(/\S*1\S*/g, "Beep!");
+
+    return fourthString;
 };
-
-function convertToRobot(string) {
-  string.replace(/1/g, "Beep!"); 
-  string.replace(/2/g, "Boop!");
-  console.log(string);
-}  
-
-
-
-
-if (userInputArray.includes(3)) {
-      userInputArray.pop();
-      userInputArray.push("Won't you be my neighbor?");  
-    } else if 
-      (userInputArray.includes(2)) {
-        userInputArray.pop();
-        userInputArray.push("Boop!");  
-    } else if 
-      (userInputArray.includes(1)) {
-        userInputArray.pop();
-        userInputArray.push("Beep!"); 
-    }  
-
-
 
 $(document).ready(function() {
   $("#number-form").submit(function(event) {
@@ -43,8 +19,7 @@ $(document).ready(function() {
    
     const result = robogersInput(userInput);
 
-    $("#results-array").text(result);
+    $("#results-string").text(result);
     $("#results").show();
   });
 });    
-
