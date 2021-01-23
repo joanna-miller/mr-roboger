@@ -12,7 +12,6 @@
 
 ## Description
 
-_Input any number into the form and submit, and you will be returned with an range of every number contained within your number! Return numbers containing 3 will be replaced with "Won't you be my neighbor". Return numbers containing 2 will be replaced with "Boop!". Return numbers containing 1 will be replaced with "Beep!"._
 
 ## Setup/Installation Requirements
 
@@ -34,9 +33,8 @@ Expect: (robogersInput(5).toEqual([0, 1, 2, 3, 4, 5]));
 Test: It should return a string of values of the number that is inputted.
 Expect: (robogersInput(5).toEqual("0,1,2,3,4,5"));
 
-Describe: convertToRobot()
 Test: Convert the number 1 in a string to "Beep!".
-Expect: (convertToRobot(5).toEqual("0,beep!,2,3,4,5"));
+Expect: (robogersInput(5).toEqual("0,beep!,2,3,4,5"));
 ```
 
 ## License
