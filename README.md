@@ -39,7 +39,7 @@ Test: Convert any number containing the number 2 in a string to "Boop!".
 Expect: (robogersInput(12).toEqual("0 1 Boop! Won't you be my neighbor? 4 5 6 7 8 9 10 11 Boop!"));
 
 Test: Convert any number containing the number 1 in a string to "Beep!".
-Expect: (robogersInput(5).toEqual("0 Beep! Boop! Won't you be my neighbor? 4 5 6 7 8 9 Boop! Boop! Boop!"));
+Expect: (robogersInput(5).toEqual("0 Beep! Boop! Won't you be my neighbor? 4 5 6 7 8 9 Beep! Beep! Boop!"));
 
 ```
 
