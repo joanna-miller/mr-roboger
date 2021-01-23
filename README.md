@@ -21,7 +21,7 @@
 
 ## Known Bugs
 
-* _Value does not return to user_
+* _Form submits without any input_
 
 ## Specifications
 ```
