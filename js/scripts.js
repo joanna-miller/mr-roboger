@@ -8,7 +8,7 @@ function robogersInput(number) {
     let thirdString = secondString.replace(/\S*2\S*/g, "Boop!");
     let fourthString = thirdString.replace(/\S*1\S*/g, "Beep!");
 
-    return fourthString;
+    return fourthString; 
 };
 
 $(document).ready(function() {
@@ -23,3 +23,5 @@ $(document).ready(function() {
     $("#results").show();
   });
 });    
+
+   
