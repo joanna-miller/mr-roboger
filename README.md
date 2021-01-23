@@ -22,8 +22,8 @@ _Input any number into the form and submit, and you will be returned with an ran
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _Only converts 1, 2, & 3_
+* _Value does not return to page_
 
 ## Specifications
 ```

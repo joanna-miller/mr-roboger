@@ -22,11 +22,11 @@ $(document).ready(function() {
   $("#number-form").submit(function(event) {
     event.preventDefault();
 
-    let userInput = parseInt($("#number").val());
+    const userInput = parseInt($("#number").val());
    
-    let result = mrRobogers(userInput);
+    const result = mrRobogers(userInput);
 
-    $("#results-array").text("result");
+    $("#results-array").text(result);
     $("#results").show();
   });
 });    
