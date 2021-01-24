@@ -1,3 +1,23 @@
+body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+h5 {
+  margin-top: 20px;
+}
+
+#number {
+  margin-top: 20px;
+}
+
+.btn {
+  border: solid black;
+  margin-top: 20px;
+}
+
 #results {
   display: none;
 }
