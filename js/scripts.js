@@ -16,13 +16,10 @@ function robogersInput(number) {
   }
 };
 
-
 $(document).ready(function() {
   $("#number-form").submit(function(event) {
     event.preventDefault();
-
     const userInput = parseInt($("#number").val());
-   
     const result = robogersInput(userInput);
     $("#results-string").text(result);
     $("#results").show();
