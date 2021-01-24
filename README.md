@@ -42,7 +42,7 @@ Test: Convert any number containing the number 1 in a string to "Beep!".
 Expect: (robogersInput(5).toEqual("0 Beep! Boop! Won't you be my neighbor? 4 5 6 7 8 9 Beep! Beep! Boop!"));
 
 Test: If number is below zero, return "I can't count below zero!"
-Expect: (robogersInput(-2).toEqual("I can't count below zero!))
+Expect: (robogersInput(-2).toEqual("I can't count below zero!"))
 
 ```
 
